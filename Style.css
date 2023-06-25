@@ -28,22 +28,19 @@ div.css-18ni7ap.e8zbici2{
 
 }
 div.css-10trblm.eqr7zpz0{
-  position: block;
-  background-color:#4484FF;
+  
+
+  margin-top: 0px;
+
+  background-color: white;
   ;
-  content: "ChatBot Agent";  /* Add the application title */
-  display: block;
-  font-size: 34px;
-  font-weight: bold;
-  margin-top: -10px;
-  margin-left: -10px;
- 
-  margin-bottom: -10px;
-  text-align: center;
-  font-family: "intern";
-  width: 390px;
-
-
+  width: 100%;
+height: 500px;
+border: 4px solid black;
+border-radius: 10px;
+overflow-y: auto;
+padding: 10px;
+overflow-x: hidden;
 }
 
 
