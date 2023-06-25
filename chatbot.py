@@ -886,8 +886,11 @@ def chat():
                     
                  """)# If the "Test" button is clicked
         st.write("Would u like to Try test Now?")
+        
         if st.button("yes"):
-         webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             st.markdown("[Click here to visit the website](https://inflow2023.online/test-information)")
+        # if st.button("yes"):
+        #  webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"): 
             
             state.current_state = state.previous_state
