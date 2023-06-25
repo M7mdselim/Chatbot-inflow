@@ -28,6 +28,26 @@ div.css-18ni7ap.e8zbici2{
 
 }
 
+/* Reset Streamlit's default theme */
+div[role="main"] {
+  color: black;
+  background-color: white;
+}
+
+/* Adjust specific elements as needed */
+.stButton button {
+  background-color: white;
+  color: black;
+}
+
+.stTextInput>div>div>input {
+  background-color: white;
+  color: black;
+}
+
+/* Add more customizations as per your requirements */
+
+
 div.main.css-uf99v8.e1g8pov65{
 
   background-color: aqua;
