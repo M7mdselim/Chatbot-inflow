@@ -890,8 +890,12 @@ def chat():
         if st.button("yes"):
             link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
-                    f'<button onclick="window.open(\'{link_url}\', \'_blank\')">Button</button>'
-                )
+                f'''
+                <script>
+                    window.location.href = "{link_url}";
+                </script>
+                '''
+            )
         # if st.button("yes"):
         #  webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"): 
