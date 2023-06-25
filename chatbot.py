@@ -13,8 +13,8 @@ import time
 st.set_page_config(menu_items=None,page_title="Inflow Chatbot", page_icon="path/to/your/favicon.ico", initial_sidebar_state="collapsed")
 
 
-# with open('/style.css') as f:
-#     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+with open('/style.css') as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
     
 
 # Define a class to hold the session state variables
