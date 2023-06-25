@@ -892,7 +892,7 @@ def chat():
             st.components.v1.html(
                 f'''
                 <script>
-                    window.location.href = "{link_url}";
+                    window.open("{link_url}", "_blank");
                 </script>
                 '''
             )
