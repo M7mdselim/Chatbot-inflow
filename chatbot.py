@@ -13,7 +13,7 @@ import time
 st.set_page_config(menu_items=None,page_title="Inflow Chatbot", page_icon="path/to/your/favicon.ico", initial_sidebar_state="collapsed")
 
 
-with open('https://github.com/M7mdselim/Chatbot-inflow/blob/a6236cd07a72234f5b4836e8d8fc2289acf6be02/Style.css') as f:
+with open('Style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
     
 
