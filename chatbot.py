@@ -374,7 +374,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -397,7 +397,7 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -420,7 +420,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -485,7 +485,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -506,7 +506,7 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -529,7 +529,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -596,7 +596,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -618,7 +618,7 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -642,7 +642,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -708,7 +708,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -729,7 +729,7 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -753,7 +753,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -821,7 +821,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -842,7 +842,7 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -866,7 +866,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -939,7 +939,7 @@ def chat():
                      """)  
         st.write("Would u like to try the Test Now??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -971,7 +971,7 @@ def chat():
                      """) 
         st.write("Would u like to try Test Now??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
@@ -1005,7 +1005,7 @@ def chat():
                      """)  
         st.write("Would u like to try Test Now??") 
         if st.button("yes"):
-             link_url = "https://inflow2023.online/test-information"
+            link_url = "https://inflow2023.online/test-information"
             st.components.v1.html(
                 f'''
                 <script>
