@@ -147,7 +147,7 @@ def chat():
                  """)  
         if st.button("Contact Us Now"): 
             # If the "Yes" button is clicked
-            webbrowser.open_new_tab("http://localhost:3000/contactus")
+            webbrowser.open_new_tab("https://inflow2023.online/contactus")
             
         if st.button("Return to main menu"): 
             
@@ -182,10 +182,10 @@ def chat():
             """)
         if st.button("Contact Us"): 
             # If the "Yes" button is clicked
-            webbrowser.open_new_tab("http://localhost:3000/contactus")  # Change the current state to "testgostate"
+            webbrowser.open_new_tab("https://inflow2023.online/contactus")  # Change the current state to "testgostate"
         if st.button("Read More About us"): 
             
-            webbrowser.open_new_tab("http://localhost:3000/")
+            webbrowser.open_new_tab("https://inflow2023.online/")
             
         if st.button("Return to main menu"): 
             
@@ -227,7 +227,7 @@ def chat():
             """)  
         if st.button("Book Now"): 
             # If the "Yes" button is clicked
-            webbrowser.open_new_tab("http://localhost:3000/bookmeeting")
+            webbrowser.open_new_tab("https://inflow2023.online/bookmeeting")
             
         if st.button("Return to main menu"): 
             # If the "Yes" button is clicked
@@ -344,7 +344,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -359,7 +359,7 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -375,7 +375,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")  # lolllllllllllllllllllllllllll
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # lolllllllllllllllllllllllllll
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -433,7 +433,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -447,7 +447,7 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -463,7 +463,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")  # heheheeeeeeeeeeeeee
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # heheheeeeeeeeeeeeee
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -523,7 +523,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -538,7 +538,7 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -555,7 +555,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")  # weweeweweweweweeeeeeeeeeeeeeeeeeeeee
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # weweeweweweweweeeeeeeeeeeeeeeeeeeeee
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -614,7 +614,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -628,7 +628,7 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -645,7 +645,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")  # kokokokooooooooooooooo
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # kokokokooooooooooooooo
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -706,7 +706,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -720,7 +720,7 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -737,7 +737,7 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")  # ba77777777777
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # ba77777777777
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -803,7 +803,7 @@ def chat():
                      """)  
         st.write("Would u like to try the Test Now??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -828,7 +828,7 @@ def chat():
                      """) 
         st.write("Would u like to try Test Now??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -855,7 +855,7 @@ def chat():
                      """)  
         st.write("Would u like to try Test Now??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("http://localhost:3000/test-information")  # ba77777777777
+            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # ba77777777777
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -887,7 +887,7 @@ def chat():
                  """)# If the "Test" button is clicked
         st.write("Would u like to Try test Now?")
         if st.button("yes"):
-         webbrowser.open_new_tab("http://localhost:3000/test-information")
+         webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"): 
             
             state.current_state = state.previous_state
