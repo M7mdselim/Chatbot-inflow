@@ -888,22 +888,8 @@ def chat():
         st.write("Would u like to Try test Now?")
         
         if st.button("yes"):
-                    st.markdown(
-                """
-                <div>
-                    <button id="redirectButton" style="display: none;">Redirect</button>
-                </div>
-                <script>
-                    document.addEventListener("DOMContentLoaded", function(event) {
-                        document.getElementById("redirectButton").click();
-                    });
-                    document.getElementById("redirectButton").addEventListener("click", function() {
-                        window.location.href = "https://inflow2023.online/test-information";
-                    });
-                </script>
-                """,
-                unsafe_allow_html=True
-            )
+            link_url = "https://inflow2023.online/test-information"
+            st.markdown(f'<a href="{link_url}">Button</a>', unsafe_allow_html=True)
         # if st.button("yes"):
         #  webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"): 
