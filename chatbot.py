@@ -888,7 +888,16 @@ def chat():
         st.write("Would u like to Try test Now?")
         
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+                    st.markdown(
+                """
+                <div>
+                    <button onclick="window.location.href='https://inflow2023.online/test-information'">
+                        Yes
+                    </button>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
         # if st.button("yes"):
         #  webbrowser.open_new_tab("https://inflow2023.online/test-information")
         if st.button("Return to main menu"): 
