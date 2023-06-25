@@ -49,7 +49,7 @@ overflow-x: hidden;
 
  
 }
-div.block-container.css-1y4p8pa.e1g8pov64{
+div.block-container.css-1y4p8pa.e1g8pov64::before{
 
   position: block;
   background-color:#4484FF;
