@@ -147,7 +147,15 @@ def chat():
                  """)  
         if st.button("Contact Us Now"): 
             # If the "Yes" button is clicked
-            webbrowser.open_new_tab("https://inflow2023.online/contactus")
+            link_url = "https://inflow2023.online/contactus"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
+            
             
         if st.button("Return to main menu"): 
             
@@ -182,10 +190,24 @@ def chat():
             """)
         if st.button("Contact Us"): 
             # If the "Yes" button is clicked
-            webbrowser.open_new_tab("https://inflow2023.online/contactus")  # Change the current state to "testgostate"
+            link_url = "https://inflow2023.online/contactus"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )  # Change the current state to "testgostate"
         if st.button("Read More About us"): 
             
-            webbrowser.open_new_tab("https://inflow2023.online/")
+            link_url = "https://inflow2023.online/"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )  # Change the current state to "testgostate"
             
         if st.button("Return to main menu"): 
             
@@ -227,7 +249,15 @@ def chat():
             """)  
         if st.button("Book Now"): 
             # If the "Yes" button is clicked
-            webbrowser.open_new_tab("https://inflow2023.online/bookmeeting")
+            link_url = "https://inflow2023.online/bookmeeting"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
+           
             
         if st.button("Return to main menu"): 
             # If the "Yes" button is clicked
@@ -344,7 +374,15 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
+            
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -359,7 +397,14 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -375,7 +420,14 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # lolllllllllllllllllllllllllll
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )  # lolllllllllllllllllllllllllll
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -433,7 +485,14 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -447,7 +506,14 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -463,7 +529,14 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # heheheeeeeeeeeeeeee
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )  # heheheeeeeeeeeeeeee
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -523,7 +596,14 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -538,7 +618,14 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -555,7 +642,14 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # weweeweweweweweeeeeeeeeeeeeeeeeeeeee
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )  # weweeweweweweweeeeeeeeeeeeeeeeeeeeee
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -614,7 +708,14 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -628,7 +729,14 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -645,7 +753,14 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # kokokokooooooooooooooo
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )  # kokokokooooooooooooooo
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -706,7 +821,14 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -720,7 +842,14 @@ def chat():
                      """) 
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -737,7 +866,14 @@ def chat():
                      """)  
         st.write("Ok you are now Ready for test would u like to try??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # ba77777777777
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )  # ba77777777777
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -803,7 +939,14 @@ def chat():
                      """)  
         st.write("Would u like to try the Test Now??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -828,7 +971,14 @@ def chat():
                      """) 
         st.write("Would u like to try Test Now??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
@@ -855,7 +1005,14 @@ def chat():
                      """)  
         st.write("Would u like to try Test Now??") 
         if st.button("yes"):
-            webbrowser.open_new_tab("https://inflow2023.online/test-information")  # ba77777777777
+             link_url = "https://inflow2023.online/test-information"
+            st.components.v1.html(
+                f'''
+                <script>
+                    window.open("{link_url}", "_blank");
+                </script>
+                '''
+            )  # ba77777777777
         if st.button("Return to main menu"):
             state.current_state = "yesintstate"
             
