@@ -28,7 +28,20 @@ div.css-18ni7ap.e8zbici2{
 
 }
 
+div.block-container.css-1y4p8pa.e1g8pov64{
 
+  margin-top: 0px;
+
+  background-color: white;
+  ;
+  width: 100%;
+height: 500px;
+border: 4px solid black;
+border-radius: 10px;
+overflow-y: auto;
+padding: 10px;
+overflow-x: hidden;
+}
 
 div.block-container.css-1y4p8pa.egzxvld4{ /*Content*/
 
