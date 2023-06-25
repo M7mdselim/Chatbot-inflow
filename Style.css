@@ -27,11 +27,7 @@ div.css-18ni7ap.e8zbici2{
 
 
 }
-div.block-container.css-10trblm.eqr7zpz0{
-  
 
- color: #4484FF;
-}
 
 
 div.block-container.css-1y4p8pa.egzxvld4{ /*Content*/
@@ -52,6 +48,24 @@ overflow-x: hidden;
 .css-6lzl0t{
 
  
+}
+div.block-container.css-1y4p8pa.e1g8pov64{
+
+  position: block;
+  background-color:#4484FF;
+  ;
+  content: "ChatBot Agent";  /* Add the application title */
+  display: block;
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-left: -10px;
+ 
+  margin-bottom: -10px;
+  text-align: center;
+  font-family: "intern";
+  width: 390px;
+
 }
 
 div.block-container.css-1y4p8pa.egzxvld4::before {/*chat agent*/
