@@ -891,10 +891,16 @@ def chat():
                     st.markdown(
                 """
                 <div>
-                    <button onclick="window.location.href='https://inflow2023.online/test-information'">
-                        Yes
-                    </button>
+                    <button id="redirectButton" style="display: none;">Redirect</button>
                 </div>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function(event) {
+                        document.getElementById("redirectButton").click();
+                    });
+                    document.getElementById("redirectButton").addEventListener("click", function() {
+                        window.location.href = "https://inflow2023.online/test-information";
+                    });
+                </script>
                 """,
                 unsafe_allow_html=True
             )
